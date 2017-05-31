@@ -8,13 +8,14 @@ package week2.wee2four;
 public class ten {
     public static void main(String[] args) {
         int[] arr = {12,34,5,64,65,56,232,13,23,54,23};
-        splitArray(arr,3,9);
+        int[] arr1 = splitArray(arr,3,9);
     }
     public static int[] splitArray(int[] arr, int start, int end){
-        int a = arr.length - end;
-        for (int i = start; i>=0; i++){
-            Arrays
+        int[] arr1 = new int[end-start-1];
+        for (int i = start+1, j = 0; i<end; i++, j++){
+            arr1[j] = arr[i];
         }
+        return arr1;
     }
 
 }
