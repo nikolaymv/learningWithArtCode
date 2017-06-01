@@ -8,7 +8,6 @@ import java.util.regex.Pattern;
  */
 public class nine {
     public String seeColor(String str){
-        Pattern pattern = Pattern.compile("red.*");
         if(Pattern.matches("red.*", str)){
             return "red";
         } else if(Pattern.matches("blue.*", str)){
