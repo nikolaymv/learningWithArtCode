@@ -1,5 +1,7 @@
 package week2.wee2four;
 
+import java.util.Arrays;
+
 /**
  * Created by Николай on 29.05.2017.
  * 10) public static int[] splitArray(int[] arr, int start, int end) { // обрезать массив по границам start и end

@@ -1,5 +1,7 @@
 package week2;
 
+import java.util.Scanner;
+
 /**
  * Created by Николай on 28.05.2017.
  *
