@@ -6,7 +6,7 @@ package week3.three;
  */
 public class six {
     public static void main(String[] args) {
-        String num = "10001101001";
+        String num = "10001101001111111111";
         int count0 = 0;
         int maxCount0 = 0;
         int maxCount1 = 0;
